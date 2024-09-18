@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Desafio2</string>
+    <string name="historial_compras">Historial de compras</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="menu">Menú</string>
+    <string name="ver_orden">Ver Orden</string>
+    <string name="resumen_orden">Resumen de tu orden</string>
+    <string name="total">Total: $0.00</string>
+    <string name="confirmar_orden">Confirmar Orden</string>
+    <string name="boton_menos">-</string>
+    <string name="boton_mas">+</string>
 </resources>
