@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAC2D5"
+    android:background="#E8F5E9"
     tools:context=".HistoryActivity">
 
     <TextView
         android:id="@+id/tvHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/historial_compras"
-        android:textSize="18sp"
+        android:text="Historial de Compras"
+        android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#2C6B2F"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="32dp"/>
 
     <ListView
         android:id="@+id/historyListView"

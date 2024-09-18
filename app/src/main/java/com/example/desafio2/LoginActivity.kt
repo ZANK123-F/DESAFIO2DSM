@@ -13,10 +13,7 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnLogin.setOnClickListener {
 
-            startActivity(Intent(this, MenuActivity::class.java))
-        }
     }
 }
 //si

@@ -5,19 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OrderActivity"
-    android:background="#FAC2D5">
+    android:background="#E8F5E9">
 
     <TextView
         android:id="@+id/tvOrderSummary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resumen_orden"
+        android:text="Resumen de Orden"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#2C6B2F"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="32dp"/>
 
     <ListView
         android:id="@+id/orderListView"
@@ -33,9 +34,10 @@
         android:id="@+id/tvTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/total"
+        android:text="Total"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="#2C6B2F"
         app:layout_constraintBottom_toTopOf="@id/btnConfirmOrder"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"/>
@@ -44,7 +46,9 @@
         android:id="@+id/btnConfirmOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/confirmar_orden"
+        android:text="Confirmar Orden"
+        android:textColor="#FFFFFF"
+        android:background="#388E3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
